@@ -47,7 +47,7 @@ module test_adder;
 	      0: begin
 		 if (tend == 0) begin
 		    data_in <= tdata;
-		    end_in <= 0;
+		    end_in <= tend; // 0
 		    valid_in <= 1;
 		 end
 		 else begin
